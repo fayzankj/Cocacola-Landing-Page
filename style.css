@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy Light', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 00px 50px;
+}
+
+nav h1 {
+    font-size: 18px;
+}
+
+.ri-search-line {
+    font-size: 17px;
+    font-weight: bolder;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.nav2 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line {
+    width: 70px;
+    height: 2px;
+    background-color: red;
+}
+
+.nav2>img {
+    height: 40px;
+}
+
+.nav2 h5 {
+    font-size: 13px;
+}
+
+.content {
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.left {
+    width: 39%;
+    height: 100%;
+    padding: 80px 80px;
+}
+
+.left h1 {
+    font-size: 50px;
+    line-height: 55px;
+    margin-bottom: 25px;
+}
+
+.left p {
+    font-size: 13px;
+    width: 75%;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+
+.left button {
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 25px;
+    font-weight: 700;
+}
+
+.left button i {
+    margin-right: 8px;
+}
+
+.left h1 span {
+    color: red;
+    font-weight: 600;
+
+}
+
+.center {
+    width: 22%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.bg {
+    width: 100%;
+    height: 85%;
+    background-color: #fff;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url(https://c0.wallpaperflare.com/preview/85/135/782/coca-cola-led-signage-thumbnail.jpg);
+    background-size: 350%;
+    background-position: 30% 40%;
+    filter: blur(3px);
+}
+
+.content>img {
+    position: absolute;
+    height: 98%;
+    left: 49%;
+    transform: translate(-50%, 0);
+}
+
+
+.right {
+    width: 39%;
+    height: 100%;
+    position: relative;
+    padding: 250px 100px;
+}
+
+.rightelems {
+    width: 300px;
+}
+
+.rightelems h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.rightelems i {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.elem2 p {
+    font-size: 11px;
+    width: 90%;
+    opacity: 0.7;
+}
+
+.elem2 h1 {
+    padding-top: 15px;
+    margin-bottom: 7px;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    border-bottom: 1px solid white;
+    opacity: 0.5;
+}
+
+.elem1 {
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    border-bottom: 1px solid white;
+}
+
+.elem2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
